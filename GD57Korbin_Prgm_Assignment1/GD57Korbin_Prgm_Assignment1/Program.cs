@@ -49,6 +49,8 @@ namespace GD57Korbin_Prgm_Assignment1
                 }
             }
 
+            //Lets try this again
+
             void numInput()
             {
                 //Takes input from the user and loads the numbersfloat array with values
