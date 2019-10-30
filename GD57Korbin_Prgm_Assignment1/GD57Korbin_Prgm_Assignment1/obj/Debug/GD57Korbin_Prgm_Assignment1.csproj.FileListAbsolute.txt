@@ -19,3 +19,10 @@ C:\Users\GD57Korbin\Documents\T1 Intro To Programming in C#\GD57Korbin_Prgm_Assi
 C:\Users\GD57Korbin\Documents\T1 Intro To Programming in C#\GD57Korbin_Prgm_Assignment1\GD57Korbin_Prgm_Assignment1\obj\Debug\GD57Korbin_Prgm_Assignment1.csproj.CoreCompileInputs.cache
 C:\Users\GD57Korbin\Documents\T1 Intro To Programming in C#\GD57Korbin_Prgm_Assignment1\GD57Korbin_Prgm_Assignment1\obj\Debug\GD57Korbin_Prgm_Assignment1.exe
 C:\Users\GD57Korbin\Documents\T1 Intro To Programming in C#\GD57Korbin_Prgm_Assignment1\GD57Korbin_Prgm_Assignment1\obj\Debug\GD57Korbin_Prgm_Assignment1.pdb
+C:\Users\GD57Korbin\Documents\IntroToCSharp\GD57Korbin_Prgm_Assignment1\GD57Korbin_Prgm_Assignment1\bin\Debug\GD57Korbin_Prgm_Assignment1.exe.config
+C:\Users\GD57Korbin\Documents\IntroToCSharp\GD57Korbin_Prgm_Assignment1\GD57Korbin_Prgm_Assignment1\bin\Debug\GD57Korbin_Prgm_Assignment1.exe
+C:\Users\GD57Korbin\Documents\IntroToCSharp\GD57Korbin_Prgm_Assignment1\GD57Korbin_Prgm_Assignment1\bin\Debug\GD57Korbin_Prgm_Assignment1.pdb
+C:\Users\GD57Korbin\Documents\IntroToCSharp\GD57Korbin_Prgm_Assignment1\GD57Korbin_Prgm_Assignment1\obj\Debug\GD57Korbin_Prgm_Assignment1.csprojAssemblyReference.cache
+C:\Users\GD57Korbin\Documents\IntroToCSharp\GD57Korbin_Prgm_Assignment1\GD57Korbin_Prgm_Assignment1\obj\Debug\GD57Korbin_Prgm_Assignment1.csproj.CoreCompileInputs.cache
+C:\Users\GD57Korbin\Documents\IntroToCSharp\GD57Korbin_Prgm_Assignment1\GD57Korbin_Prgm_Assignment1\obj\Debug\GD57Korbin_Prgm_Assignment1.exe
+C:\Users\GD57Korbin\Documents\IntroToCSharp\GD57Korbin_Prgm_Assignment1\GD57Korbin_Prgm_Assignment1\obj\Debug\GD57Korbin_Prgm_Assignment1.pdb

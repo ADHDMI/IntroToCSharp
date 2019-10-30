@@ -49,8 +49,6 @@ namespace GD57Korbin_Prgm_Assignment1
                 }
             }
 
-            //Lets try this again
-
             void numInput()
             {
                 //Takes input from the user and loads the numbersfloat array with values
@@ -75,6 +73,25 @@ namespace GD57Korbin_Prgm_Assignment1
                 parse(1, 1);
             }
 
+            Console.Write(("So if I'm doing this right the awnswer you're looking for is "));
+
+
+            switch (opChoice)
+            {
+                case ("-"):
+                    Console.WriteLine(numbersFloat[0] - numbersFloat[1]);
+                    break;
+                case ("+"):
+
+                    break;
+                default:
+
+                    break;
+
+
+            }
+
+
             if (opType == 0)
             {
                 Console.WriteLine(("So if I'm doing this right the awnswer you're looking for is ") + (numbersFloat[0] - numbersFloat[1]));
@@ -82,28 +99,28 @@ namespace GD57Korbin_Prgm_Assignment1
                 typeInput();
             }
 
-            if (opType == 1)
+            else if (opType == 1)
             {
                 Console.WriteLine(("So if I'm doing this right the awnswer you're looking for is ") + (numbersFloat[0] + numbersFloat[1]));
                 Console.ReadLine();
                 typeInput();
             }
 
-            if (opType == 2)
+            else if (opType == 2)
             {
                 Console.WriteLine(("So if I'm doing this right the awnswer you're looking for is ") + (numbersFloat[0] * numbersFloat[1]));
                 Console.ReadLine();
                 typeInput();
             }
 
-            if (opType == 3)
+            else if (opType == 3)
             {
                 Console.WriteLine(("So if I'm doing this right the awnswer you're looking for is ") + (numbersFloat[0] / numbersFloat[1]));
                 Console.ReadLine();
                 typeInput();
             }
 
-            if (opType == 4)
+            else if (opType == 4)
             {
                 Console.WriteLine(("So if I'm doing this right the awnswer you're looking for is ") + (numbersFloat[0] % numbersFloat[1]));
                 Console.ReadLine();
