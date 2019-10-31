@@ -54,7 +54,7 @@ namespace GD57Korbin_Prgm_Assignment1
                 //Takes input from the user and loads the numbersfloat array with values
                 if (firstNumAttempt)
                 {
-                    Console.WriteLine("Can you give me a couple of numbers? One at a time of course, I'm a little daft");
+                    Console.WriteLine("Can you give me a couple of numbers? One at a time of course, please and thankyou");
                 }
                 numbersStr[0] = Console.ReadLine();
                 parse(0, 0);
@@ -75,56 +75,38 @@ namespace GD57Korbin_Prgm_Assignment1
 
             Console.Write(("So if I'm doing this right the awnswer you're looking for is "));
 
-
+            //This checks the opChoice string and runs the approppriate operation, then sends the user back to the "main menu"
             switch (opChoice)
             {
                 case ("-"):
                     Console.WriteLine(numbersFloat[0] - numbersFloat[1]);
+                    Console.ReadLine();
+                    typeInput();
                     break;
+
                 case ("+"):
-
+                    Console.WriteLine(numbersFloat[0] + numbersFloat[1]);
+                    Console.ReadLine();
+                    typeInput();
                     break;
-                default:
 
+                case ("*"):
+                    Console.WriteLine(numbersFloat[0] * numbersFloat[1]);
+                    Console.ReadLine();
+                    typeInput();
                     break;
 
+                case ("/"):
+                    Console.WriteLine(numbersFloat[0] / numbersFloat[1]);
+                    Console.ReadLine();
+                    typeInput();
+                    break;
 
-            }
-
-
-            if (opType == 0)
-            {
-                Console.WriteLine(("So if I'm doing this right the awnswer you're looking for is ") + (numbersFloat[0] - numbersFloat[1]));
-                Console.ReadLine();
-                typeInput();
-            }
-
-            else if (opType == 1)
-            {
-                Console.WriteLine(("So if I'm doing this right the awnswer you're looking for is ") + (numbersFloat[0] + numbersFloat[1]));
-                Console.ReadLine();
-                typeInput();
-            }
-
-            else if (opType == 2)
-            {
-                Console.WriteLine(("So if I'm doing this right the awnswer you're looking for is ") + (numbersFloat[0] * numbersFloat[1]));
-                Console.ReadLine();
-                typeInput();
-            }
-
-            else if (opType == 3)
-            {
-                Console.WriteLine(("So if I'm doing this right the awnswer you're looking for is ") + (numbersFloat[0] / numbersFloat[1]));
-                Console.ReadLine();
-                typeInput();
-            }
-
-            else if (opType == 4)
-            {
-                Console.WriteLine(("So if I'm doing this right the awnswer you're looking for is ") + (numbersFloat[0] % numbersFloat[1]));
-                Console.ReadLine();
-                typeInput();
+                case ("%"):
+                    Console.WriteLine(numbersFloat[0] % numbersFloat[1]);
+                    Console.ReadLine();
+                    typeInput();
+                    break;
             }
         }
     }
